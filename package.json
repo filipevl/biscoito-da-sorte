@@ -1,0 +1,26 @@
+{
+  "name": "biscoito-da-sorte",
+  "version": "1.0.0",
+  "description": "Projeto final do curso de back-end promovido pela estaçao hack facebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipevl/biscoito-da-sorte.git"
+  },
+  "author": "Filipe Viana Lacerda, Alex Abbes Marques Viana, Kleber Sanzony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipevl/biscoito-da-sorte/issues"
+  },
+  "homepage": "https://github.com/filipevl/biscoito-da-sorte#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
