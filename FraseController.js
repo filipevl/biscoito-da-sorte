@@ -6,7 +6,6 @@ class FraseController {
 	getFrase = (req, res) => {
 		const frases = new Frases(mockup);
 		const intRandom = getRandom(300);
-        console.log(intRandom);
 		res.status(200).json(frases.getFrase(intRandom));
 	};
 }

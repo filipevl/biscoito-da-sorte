@@ -1,0 +1,17 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+html, body {
+    background-color: #fee879;
+    height: 100%;
+}
+
+.frase-randomica {
+    background-color: #f7aa37;
+    width: 371px;
+    font-size: 27px;
+}
+#autor {
+    text-decoration: underline;
+}
