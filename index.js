@@ -1,15 +1,16 @@
-require('dotenv').config();
-const express = require('express');
-const app = express();
-const router = require('./routes.js');
+require("dotenv").config();
+const express = require("express"),
+	app = express(),
+	router = require("./routes.js"),
+	port = process.env.PORT || 3000;
 
-app.set('view engine', 'ejs');
-app.set('views', './views');
+app.set("view engine", "ejs");
+app.set("views", "./views");
 
-app.use(express.static('public'));
+app.use(express.static("public"));
 
-app.use(router)
+app.use(router);
 
-app.listen( process.env.PORT || 3000, () => {
-    console.log('Server is running on port 3000');
-})
+app.listen(port, () => {
+	console.log("Server is running on port " + port);
+});
