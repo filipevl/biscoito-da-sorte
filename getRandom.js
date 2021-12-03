@@ -1,8 +1,3 @@
-const getRandom = (max) => {
-	let random = parseInt(Math.random() * 1000);
-	while (random > max) {
-		random = parseInt(Math.random() * 1000);
-	}
-	return random;
-};
+const getRandom = (max) => parseInt(Math.random() * max);
+
 module.exports = getRandom;
