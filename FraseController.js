@@ -5,7 +5,7 @@ const mockup = require("./mockup");
 class FraseController {
 	getFrase = (req, res) => {
 		const frases = new Frases(mockup);
-		const intRandom = getRandom(300);
+		const intRandom = getRandom(frases.getLength());
 		res.status(200).json(frases.getFrase(intRandom));
 	};
 }
